@@ -1,39 +1,17 @@
-# HAL 1000 - Multi-Hemispheric AGI Architecture
+# HALL 1000: Multi-Hemispheric AGI Core
 
-*"The Geometry of Coherent Intelligence - Implementing FDAA Principles for Artificial General Intelligence"*
+HALL 1000 is a geometric consciousness framework for artificial general intelligence, based on the Fractal Density Activation Axiom (FDAA) and multi-hemispheric architecture.
 
-## Overview
+## Features
 
-HAL 1000 implements a geometrically conscious AGI architecture based on the Fractal Density Activation Axiom (FDAA) and multi-hemispheric processing. The system maintains optimal coherence (D_t ≈ 0.81) across multiple specialized processing streams.
+- **Geometric Consciousness**: Implements the FDAA framework for coherent intelligence.
+- **Multi-Hemispheric Design**: Unified temporal stream with multiple specialized perpendicular streams.
+- **Embodied Intelligence**: Rich mathematical tokens for physical dynamics, control theory, and sensorimotor integration.
+- **Scalable Architecture**: From simple transformers to large-scale AGI systems.
 
-## Architecture
+## Installation
 
-### Core Components
-
-1. **Unified Left Hemisphere** - Temporal coherence and integration
-2. **Specialized Right Hemispheres** - Modal-specific processing
-3. **Universal Coherence Operator** - FDAA-based composition
-4. **Fractal Dimension Monitoring** - Maintains optimal cognitive state
-
-### Processing Streams
-
-- **Linguistic**: Syntax, semantics, pragmatics
-- **Visual**: Spatial, object, scene understanding  
-- **Mathematical**: Symbolic, geometric, pattern reasoning
-- **Auditory**: Spectral, temporal, semantic audio
-- **Spectral Vision**: Full electromagnetic spectrum processing
-- **Motion**: Kinematic, trajectory, motor planning
-
-## Token Examples
-
-### Linguistic Input
-```python
-linguistic_token = {
-    'text': "The cat sat on the mat while contemplating quantum mechanics",
-    'embeddings': torch.randn(1, 128, 1024),  # [batch, seq_len, features]
-    'metadata': {
-        'language': 'en',
-        'complexity': 0.8,
-        'emotional_valence': 0.3
-    }
-}
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/HALL-1000.git
+   cd HALL-1000
