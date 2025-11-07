@@ -1,0 +1,9 @@
+audio_token = {
+    'waveform': torch.randn(1, 44100),  # 1 second of audio
+    'spectrogram': torch.randn(1, 128, 512),  # Time-frequency representation
+    'metadata': {
+        'sample_rate': 44100,
+        'channels': 1,
+        'content_type': 'speech_music_environment'
+    }
+}
