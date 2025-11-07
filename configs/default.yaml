@@ -1,0 +1,50 @@
+# HALL 1000 Default Configuration
+
+core:
+  d_model: 1024
+  n_heads: 16
+  num_layers: 12
+  dropout: 0.1
+  activation: "gelu"
+  
+coherence:
+  fractal_attractor: 0.81
+  still_fish_threshold: 0.05
+  phase_alignment_tolerance: 0.1
+  coherence_loss_weight: 0.1
+
+tokens:
+  mathematical:
+    symbolic_dim: 512
+    geometric_dim: 512
+    numerical_dim: 256
+    abstract_dim: 512
+    
+  physical:
+    state_dim: 64
+    action_dim: 32
+    constraint_dim: 128
+    
+  spectral:
+    bands: 32
+    polarization_dim: 64
+    navigation_dim: 128
+
+embodied:
+  robotics:
+    joint_limits: [-3.14, 3.14]
+    max_velocity: 2.0
+    max_torque: 100.0
+    safety_margins: [0.1, 0.1, 0.05]
+    
+  aerospace:
+    max_g_force: 6.0
+    control_frequency: 100.0
+    stability_margins: [0.2, 0.15]
+
+training:
+  learning_rate: 1e-4
+  weight_decay: 0.01
+  batch_size: 32
+  gradient_clip: 1.0
+  coherence_regularization: true
