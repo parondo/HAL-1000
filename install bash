@@ -1,0 +1,6 @@
+git clone https://github.com/your-organization/hal-1000
+cd hal-1000
+pip install -r requirements.txt
+
+# For GPU support
+pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu116
