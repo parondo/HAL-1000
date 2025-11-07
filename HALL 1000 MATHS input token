@@ -1,10 +1,37 @@
 math_token = {
-    'expression': "∀x∈ℝ: ∃y∈ℂ: y² = x",
-    'structure': torch.randn(1, 64, 512),  # Symbolic structure
-    'numerical': torch.randn(1, 32, 256),  # Numerical data
+    'symbolic': {
+        'expression': "∀x∈ℝ: ∃y∈ℂ: y² = x",
+        'logical_structure': torch.randn(1, 128, 1024),  # Enhanced symbolic structure
+        'proof_state': torch.randn(1, 64, 1024),  # Current proof context
+        'constraints': torch.randn(1, 32, 1024),  # Mathematical constraints
+    },
+    'geometric': {
+        'spatial_embedding': torch.randn(1, 256, 1024),  # Geometric intuition encoding
+        'topological_features': torch.randn(1, 128, 1024),  # Topological properties
+        'symmetry_groups': torch.randn(1, 64, 1024),  # Symmetry and transformation info
+    },
+    'numerical': {
+        'exact_computation': torch.randn(1, 256, 1024),  # Exact symbolic computation
+        'approximate_calculation': torch.randn(1, 128, 1024),  # Numerical approximation
+        'error_analysis': torch.randn(1, 64, 1024),  # Precision and error tracking
+    },
+    'abstract': {
+        'concept_embedding': torch.randn(1, 192, 1024),  # Abstract mathematical concepts
+        'pattern_encoding': torch.randn(1, 128, 1024),  # Mathematical pattern recognition
+        'metamathematical': torch.randn(1, 64, 1024),  # Reasoning about reasoning
+    },
     'metadata': {
         'domain': 'complex_analysis',
         'abstraction_level': 0.9,
-        'proof_context': True
+        'proof_context': True,
+        'formality_level': 0.95,
+        'computational_demand': 0.8,
+        'geometric_content': 0.7,
+        'symbolic_complexity': 0.9
+    },
+    'coherence_metrics': {
+        'fractal_dimension': 0.81,
+        'phase_alignment': 0.02,
+        'still_fish_deviation': 0.01
     }
 }
