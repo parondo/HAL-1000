@@ -161,21 +161,138 @@ class VisualStream(nn.Module):
         return torch.cat([spatial, objects, scene], dim=-1)
 
 class MathematicalStream(nn.Module):
-    """Mathematical Reasoning Hemisphere"""
+    """Enhanced Mathematical Reasoning Hemisphere with Multi-Scale Processing"""
     
     def __init__(self, config):
         super().__init__()
+        self.d_model = config['d_model']
         
-        self.symbolic_reasoner = SymbolicLogicModule(config)
+        # Symbolic reasoning subsystem
+        self.symbolic_reasoner = EnhancedSymbolicModule(config)
+        
+        # Geometric intuition subsystem  
         self.geometric_intuition = GeometricReasoningModule(config)
+        
+        # Numerical computation subsystem
+        self.numerical_processor = NumericalComputationModule(config)
+        
+        # Abstract pattern recognition
+        self.abstract_reasoner = AbstractMathematicsModule(config)
+        
+        # Multi-scale integration
+        self.integrator = MathematicalIntegrationModule(config)
+        
+    def forward(self, math_input: Dict) -> torch.Tensor:
+        # Process through specialized subsystems
+        symbolic_out = self.symbolic_reasoner(math_input['symbolic'])
+        geometric_out = self.geometric_intuition(math_input['geometric']) 
+        numerical_out = self.numerical_processor(math_input['numerical'])
+        abstract_out = self.abstract_reasoner(math_input['abstract'])
+        
+        # Multi-scale integration
+        integrated = self.integrator(
+            symbolic_out, geometric_out, numerical_out, abstract_out
+        )
+        
+        return integrated
+
+class EnhancedSymbolicModule(nn.Module):
+    """Enhanced symbolic mathematical reasoning"""
+    
+    def __init__(self, config):
+        super().__init__()
+        self.logical_attention = nn.MultiheadAttention(
+            embed_dim=config['d_model'], 
+            num_heads=8,
+            dropout=0.1
+        )
+        self.proof_tracker = ProofStateTracker(config)
+        self.constraint_solver = ConstraintPropagationModule(config)
+        
+    def forward(self, symbolic_input: Dict) -> torch.Tensor:
+        logical = self.logical_attention(
+            symbolic_input['logical_structure'],
+            symbolic_input['logical_structure'], 
+            symbolic_input['logical_structure']
+        )[0]
+        
+        proof_context = self.proof_tracker(symbolic_input['proof_state'])
+        constraints = self.constraint_solver(symbolic_input['constraints'])
+        
+        return (logical + proof_context + constraints) / 3
+
+class GeometricReasoningModule(nn.Module):
+    """Enhanced geometric and topological reasoning"""
+    
+    def __init__(self, config):
+        super().__init__()
+        self.spatial_encoder = SpatialAttention(config)
+        self.topological_analyzer = TopologicalFeatureExtractor(config)
+        self.symmetry_detector = SymmetryGroupModule(config)
+        
+    def forward(self, geometric_input: Dict) -> torch.Tensor:
+        spatial = self.spatial_encoder(geometric_input['spatial_embedding'])
+        topological = self.topological_analyzer(geometric_input['topological_features'])
+        symmetry = self.symmetry_detector(geometric_input['symmetry_groups'])
+        
+        return torch.cat([spatial, topological, symmetry], dim=-1)
+
+class NumericalComputationModule(nn.Module):
+    """Enhanced numerical computation with error analysis"""
+    
+    def __init__(self, config):
+        super().__init__()
+        self.exact_computer = ExactComputationModule(config)
+        self.approximate_processor = ApproximateCalculationModule(config)
+        self.error_analyzer = ErrorAnalysisModule(config)
+        
+    def forward(self, numerical_input: Dict) -> torch.Tensor:
+        exact = self.exact_computer(numerical_input['exact_computation'])
+        approximate = self.approximate_processor(numerical_input['approximate_calculation'])
+        error = self.error_analyzer(numerical_input['error_analysis'])
+        
+        return exact + approximate + error
+
+class AbstractMathematicsModule(nn.Module):
+    """Abstract mathematical pattern recognition"""
+    
+    def __init__(self, config):
+        super().__init__()
+        self.concept_embedder = ConceptEmbeddingModule(config)
         self.pattern_recognizer = MathematicalPatternModule(config)
+        self.metamathematical_reasoner = MetaMathematicalModule(config)
         
-    def forward(self, math_input: torch.Tensor) -> torch.Tensor:
-        symbolic = self.symbolic_reasoner(math_input)
-        geometric = self.geometric_intuition(math_input)
-        patterns = self.pattern_recognizer(math_input)
+    def forward(self, abstract_input: Dict) -> torch.Tensor:
+        concepts = self.concept_embedder(abstract_input['concept_embedding'])
+        patterns = self.pattern_recognizer(abstract_input['pattern_encoding'])
+        meta = self.metamathematical_reasoner(abstract_input['metamathematical'])
         
-        return symbolic + geometric + patterns
+        return (concepts + patterns + meta) / 3
+
+class MathematicalIntegrationModule(nn.Module):
+    """Integrate multiple mathematical representations"""
+    
+    def __init__(self, config):
+        super().__init__()
+        self.d_model = config['d_model']
+        self.integration_attention = nn.MultiheadAttention(
+            embed_dim=self.d_model,
+            num_heads=8,
+            dropout=0.1
+        )
+        
+    def forward(self, symbolic, geometric, numerical, abstract):
+        # Stack all mathematical representations
+        representations = torch.stack([symbolic, geometric, numerical, abstract], dim=1)
+        
+        # Integrate through cross-representation attention
+        integrated, _ = self.integration_attention(
+            representations.mean(dim=1, keepdim=True),
+            representations,
+            representations
+        )
+        
+        return integrated.squeeze(1)
 
 class AuditoryStream(nn.Module):
     """Auditory Processing Hemisphere"""
