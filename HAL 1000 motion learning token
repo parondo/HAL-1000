@@ -1,0 +1,10 @@
+motion_token = {
+    'kinematics': torch.randn(1, 64, 6),  # [batch, timesteps, degrees_of_freedom]
+    'dynamics': torch.randn(1, 64, 12),   # Forces, torques, etc.
+    'trajectory': torch.randn(1, 128, 3), # Spatial trajectory
+    'metadata': {
+        'coordinate_system': 'world',
+        'temporal_resolution': 0.01,  # 100Hz
+        'physical_units': 'SI'
+    }
+}
