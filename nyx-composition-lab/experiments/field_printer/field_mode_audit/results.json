@@ -1,0 +1,247 @@
+{
+  "scope": "eight prescribed addresses; no outside-cube or cure claim",
+  "four_mode_offset_checks": 4913,
+  "cube_samples": 8,
+  "five_mode_witness_active_channels": [
+    0,
+    4
+  ],
+  "new_direction_numerator": [
+    0,
+    -20,
+    99
+  ],
+  "new_polarization_numerator": [
+    0,
+    99,
+    20
+  ],
+  "direction_denominator": 101,
+  "normalized_threshold": 2,
+  "rows": [
+    {
+      "address": [
+        0,
+        0,
+        0
+      ],
+      "target": true,
+      "new_exponent": 0,
+      "intensity_coefficients_scaled_by_10201": [
+        40400,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "above"
+    },
+    {
+      "address": [
+        0,
+        0,
+        8
+      ],
+      "target": false,
+      "new_exponent": 9,
+      "intensity_coefficients_scaled_by_10201": [
+        20402,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9999,
+        9999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "below"
+    },
+    {
+      "address": [
+        0,
+        8,
+        0
+      ],
+      "target": false,
+      "new_exponent": 8,
+      "intensity_coefficients_scaled_by_10201": [
+        20402,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9999,
+        9999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "below"
+    },
+    {
+      "address": [
+        0,
+        8,
+        8
+      ],
+      "target": true,
+      "new_exponent": 0,
+      "intensity_coefficients_scaled_by_10201": [
+        40400,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "above"
+    },
+    {
+      "address": [
+        8,
+        0,
+        0
+      ],
+      "target": false,
+      "new_exponent": 8,
+      "intensity_coefficients_scaled_by_10201": [
+        20402,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9999,
+        9999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "below"
+    },
+    {
+      "address": [
+        8,
+        0,
+        8
+      ],
+      "target": true,
+      "new_exponent": 0,
+      "intensity_coefficients_scaled_by_10201": [
+        40400,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "above"
+    },
+    {
+      "address": [
+        8,
+        8,
+        0
+      ],
+      "target": true,
+      "new_exponent": 16,
+      "intensity_coefficients_scaled_by_10201": [
+        10403,
+        0,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999,
+        -9999
+      ],
+      "relative_to_threshold_2": "above"
+    },
+    {
+      "address": [
+        8,
+        8,
+        8
+      ],
+      "target": false,
+      "new_exponent": 8,
+      "intensity_coefficients_scaled_by_10201": [
+        20402,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9999,
+        9999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relative_to_threshold_2": "below"
+    }
+  ]
+}
