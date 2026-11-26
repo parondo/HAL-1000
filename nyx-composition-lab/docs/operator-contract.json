@@ -1,0 +1,64 @@
+{
+  "contract_version": "0.1",
+  "status": "exploratory_implementation",
+  "operator_id": "rational_ratio_residue",
+  "source": {
+    "work": "Scala Caelestis V4",
+    "section": "3.11 Scriptura Pulveris",
+    "related": "De Referentiis Modularibus",
+    "corpus_index": "https://www.fdaa.fr/",
+    "exact_public_section_url": null
+  },
+  "implementation": "nyx/reference.py:modular_ratio",
+  "input": {
+    "ratio": "fractions.Fraction (reduced rational)",
+    "depth": "positive integer"
+  },
+  "admissibility": [
+    "depth >= 1",
+    "reduced denominator not divisible by 17"
+  ],
+  "output": "integer residue in [0,17^depth-1]",
+  "definition": "numerator * inverse_mod(denominator,17^depth) modulo 17^depth",
+  "invariants": [
+    "equal rational ratios have equal residues",
+    "multiplication preserved on declared domain"
+  ],
+  "non_invariants": [
+    "distinct ratios may collide",
+    "residue alone does not preserve absolute magnitude or contact geometry"
+  ],
+  "undefined": {
+    "status": "STOP",
+    "exception": "DomainStop",
+    "coerce_to_zero": false
+  },
+  "bridge": {
+    "from": "exact rational representation",
+    "to": "finite rational modular register",
+    "physical_H_perp_bridge": "not established"
+  },
+  "examples": [
+    {
+      "ratio": "1/2",
+      "depth": 1,
+      "residue": 9
+    },
+    {
+      "ratio": "3/5",
+      "depth": 1,
+      "residue": 4
+    },
+    {
+      "ratio": "1/17",
+      "depth": 1,
+      "status": "STOP"
+    }
+  ],
+  "evidence": {
+    "QED": "algebraic proof in docs/reference-import.md; tests/test_reference.py",
+    "QEG": "not claimed",
+    "QEC": "not claimed"
+  },
+  "activation": "research branch; normative adoption subject to maintainer review"
+}
