@@ -73,3 +73,8 @@ This is proposed readable syntax, not a parser or executable machine controller.
 5. Keep all mismatches, separate data corrections from source-law changes. QED: finite witness; QEG: declared contact realization only; QEC: physical validation open.
 
 See [EMPIRICAL.md](EMPIRICAL.md) and empirical.json for the external test settings and the source discrepancy.
+
+
+## Feuillet IV V2 — documentation active
+
+[Consulter la V2 et ses preuves, figures, sources et tests reproductibles](FOLIO_IV_V2.md). La V1 reste une trace historique; aucun script antérieur n'est modifié.
