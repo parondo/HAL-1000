@@ -1,0 +1,55 @@
+{
+  "doi": "10.1038/s41467-025-56707-y",
+  "scope": "published settings and source arithmetic, not predictive validation",
+  "electrode_spacing_m": "1/25",
+  "voltage_V": [
+    "5",
+    "15/2",
+    "10"
+  ],
+  "field_from_methods_V_per_m": [
+    "125",
+    "375/2",
+    "250"
+  ],
+  "field_in_results_V_per_m": [
+    "150",
+    "375/2",
+    "250"
+  ],
+  "first_setting_discrepancy_V_per_m": "25",
+  "thermal_settings": [
+    {
+      "celsius": 25,
+      "kelvin": "5963/20",
+      "Ecell_over_kB_K": "101371/160"
+    },
+    {
+      "celsius": 35,
+      "kelvin": "6163/20",
+      "Ecell_over_kB_K": "104771/160"
+    },
+    {
+      "celsius": 45,
+      "kelvin": "6363/20",
+      "Ecell_over_kB_K": "108171/160"
+    }
+  ],
+  "coupled_test": {
+    "field_V_per_m": "375/2",
+    "preheat_s": 300,
+    "strain_rate_per_s": "1/1000"
+  },
+  "reported_sequence": [
+    "electrothermal stabilization",
+    "tensile loading",
+    "localized loss of conductive pathways",
+    "cooling"
+  ],
+  "raw_workbook_acquired": false,
+  "STOP": [
+    "first field setting requires original records",
+    "sample-specific pressure, contact conductance and fracture calibration missing",
+    "observed temperature is not native activation density without xi and E0"
+  ]
+}

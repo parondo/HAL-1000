@@ -1,0 +1,2242 @@
+{
+  "scope": "synthetic contact topology; not a physical panel or strength test",
+  "local_capacity": "72/289",
+  "patches": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "structural_contacts": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "redundant_channels": {
+    "structure": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "supply": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "return": [
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "thermal": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "crashes": {
+    "sparse": {
+      "1": {
+        "total": 9,
+        "pass": 4,
+        "rows": [
+          {
+            "removed": [
+              [
+                0,
+                1
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          }
+        ]
+      },
+      "2": {
+        "total": 36,
+        "pass": 6,
+        "rows": [
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": false,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": false,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          }
+        ]
+      }
+    },
+    "redundant": {
+      "1": {
+        "total": 9,
+        "pass": 9,
+        "rows": [
+          {
+            "removed": [
+              [
+                0,
+                1
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          }
+        ]
+      },
+      "2": {
+        "total": 36,
+        "pass": 28,
+        "rows": [
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": false,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": false,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                0,
+                2
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                2
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": false,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          },
+          {
+            "removed": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": true,
+              "supply": true,
+              "return": true,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": true
+          },
+          {
+            "removed": [
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "checks": {
+              "structure": false,
+              "supply": true,
+              "return": false,
+              "electrical_isolation": true,
+              "thermal_route": true,
+              "thermal_keepout": true
+            },
+            "pass": false
+          }
+        ]
+      }
+    }
+  },
+  "node_crashes": [
+    {
+      "removed": 0,
+      "checks": {
+        "structure": false,
+        "supply": false,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "removed": 1,
+      "checks": {
+        "structure": false,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": false,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "removed": 2,
+      "checks": {
+        "structure": false,
+        "supply": false,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "removed": 3,
+      "checks": {
+        "structure": false,
+        "supply": true,
+        "return": false,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "removed": 4,
+      "checks": {
+        "structure": false,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": false,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "removed": 5,
+      "checks": {
+        "structure": false,
+        "supply": true,
+        "return": false,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    }
+  ],
+  "electrical_leaks": [
+    {
+      "added": [
+        1,
+        3
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": false,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "added": [
+        2,
+        3
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": false,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    },
+    {
+      "added": [
+        2,
+        4
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": false,
+        "thermal_route": true,
+        "thermal_keepout": true
+      }
+    }
+  ],
+  "thermal_leaks": [
+    {
+      "added": [
+        0,
+        1
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": false
+      }
+    },
+    {
+      "added": [
+        0,
+        2
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": false
+      }
+    },
+    {
+      "added": [
+        3,
+        5
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": false
+      }
+    },
+    {
+      "added": [
+        4,
+        5
+      ],
+      "checks": {
+        "structure": true,
+        "supply": true,
+        "return": true,
+        "electrical_isolation": true,
+        "thermal_route": true,
+        "thermal_keepout": false
+      }
+    }
+  ],
+  "minimum_robust": {
+    "supply": {
+      "minimum_edges": 3,
+      "solutions": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ]
+    },
+    "return": {
+      "minimum_edges": 3,
+      "solutions": [
+        [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      ]
+    },
+    "thermal": {
+      "minimum_edges": 4,
+      "solutions": [
+        [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      ]
+    }
+  },
+  "transport_cases": 68,
+  "local_loss": {
+    "overlap": "49/72",
+    "defect": "23/72",
+    "symmetric_difference": "25/289"
+  },
+  "STOP": [
+    "pressure and electrical/thermal constitutive transfer not calibrated",
+    "physical impact load and failure thresholds unavailable",
+    "full Morcillien and hardware commands not inferred"
+  ]
+}

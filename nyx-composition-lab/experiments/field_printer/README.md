@@ -1,3 +1,9 @@
+# PANEL-01 — current design study
+
+**[Multifunctional material and crash tests](multifunctional_panel/README.md)** — finite contact design, functional channels, failure records and empirical data audit. Previous research follows unchanged.
+
+---
+
 # Native composition — current continuation
 
 **[Native material composition and inverse envelope](native_composition/README.md)** · finite max–min composition, corrected residual, data-first audit. Earlier research follows unchanged.
