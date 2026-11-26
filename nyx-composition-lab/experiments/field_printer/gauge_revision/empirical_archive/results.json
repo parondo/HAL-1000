@@ -1,0 +1,286 @@
+{
+  "python": "3.13.5",
+  "source_kind": "published numerical observations, no raw arrays",
+  "rows": [
+    {
+      "name": "Lin 2026 / optical tilt",
+      "source": "Lin 2026 Fig. 5a",
+      "kind": "tilt",
+      "wavelength": "405",
+      "angle_deg": 10,
+      "travel": "450",
+      "observed": "80",
+      "unit": "um",
+      "predicted_interval": [
+        "79347141/1000000",
+        "39673571/500000"
+      ],
+      "signed_error_interval": [
+        "326429/500000",
+        "652859/1000000"
+      ],
+      "signed_relative_percent_interval": [
+        "822787/1000000",
+        "822789/1000000"
+      ],
+      "note": "Measured optical pattern in air; approximate 80 um; not a cured depth."
+    },
+    {
+      "name": "Lowell 2016 / 4+1 transverse y",
+      "source": "Lowell 2016 §4.1 Fig. 2",
+      "kind": "lateral",
+      "wavelength": "514.5",
+      "angle_deg": 46,
+      "travel": null,
+      "observed": "668",
+      "unit": "nm",
+      "predicted_interval": [
+        "715239167/1000000",
+        "11175612/15625"
+      ],
+      "signed_error_interval": [
+        "-738112/15625",
+        "-47239167/1000000"
+      ],
+      "signed_relative_percent_interval": [
+        "-1651167/250000",
+        "-6604667/1000000"
+      ],
+      "note": "AFM period."
+    },
+    {
+      "name": "Lowell 2016 / 4+1 axial, 43-degree mode",
+      "source": "Lowell 2016 §4.1 Fig. 2",
+      "kind": "axial",
+      "wavelength": "514.5",
+      "angle_deg": 43,
+      "travel": null,
+      "observed": "1967",
+      "unit": "nm",
+      "predicted_interval": [
+        "1915157599/1000000",
+        "2393947/1250"
+      ],
+      "signed_error_interval": [
+        "64803/1250",
+        "51842401/1000000"
+      ],
+      "signed_relative_percent_interval": [
+        "338369/125000",
+        "2706953/1000000"
+      ],
+      "note": "Published mean axial measurement; component reference, not full asymmetric lattice period."
+    },
+    {
+      "name": "Lowell 2016 / 4+1 axial, 46-degree mode",
+      "source": "Lowell 2016 §4.1 Fig. 2",
+      "kind": "axial",
+      "wavelength": "514.5",
+      "angle_deg": 46,
+      "travel": null,
+      "observed": "1967",
+      "unit": "nm",
+      "predicted_interval": [
+        "336999577/200000",
+        "842498943/500000"
+      ],
+      "signed_error_interval": [
+        "141001057/500000",
+        "56400423/200000"
+      ],
+      "signed_relative_percent_interval": [
+        "16736051/1000000",
+        "4184013/250000"
+      ],
+      "note": "Same measurement, other mode; not an independent sample."
+    },
+    {
+      "name": "Lowell 2016 / 4+1 transverse x, 43-degree mode",
+      "source": "Lowell 2016 §4.1 Fig. 2",
+      "kind": "lateral",
+      "wavelength": "514.5",
+      "angle_deg": 43,
+      "travel": null,
+      "observed": "690",
+      "unit": "nm",
+      "predicted_interval": [
+        "754400641/1000000",
+        "377200321/500000"
+      ],
+      "signed_error_interval": [
+        "-32200321/500000",
+        "-64400641/1000000"
+      ],
+      "signed_relative_percent_interval": [
+        "-1067083/125000",
+        "-8536663/1000000"
+      ],
+      "note": "Published mean x period, asymmetric modes; no averaging."
+    },
+    {
+      "name": "Lowell 2016 / 4+1 transverse x, 46-degree mode",
+      "source": "Lowell 2016 §4.1 Fig. 2",
+      "kind": "lateral",
+      "wavelength": "514.5",
+      "angle_deg": 46,
+      "travel": null,
+      "observed": "690",
+      "unit": "nm",
+      "predicted_interval": [
+        "715239167/1000000",
+        "11175612/15625"
+      ],
+      "signed_error_interval": [
+        "-394362/15625",
+        "-25239167/1000000"
+      ],
+      "signed_relative_percent_interval": [
+        "-1764387/500000",
+        "-3528773/1000000"
+      ],
+      "note": "Same measurement; second component reference."
+    },
+    {
+      "name": "Lowell 2016 / 5+1 axial",
+      "source": "Lowell 2016 §4.2 Fig. 3",
+      "kind": "axial",
+      "wavelength": "514.5",
+      "angle_deg": 46,
+      "travel": null,
+      "observed": "1723",
+      "unit": "nm",
+      "predicted_interval": [
+        "336999577/200000",
+        "842498943/500000"
+      ],
+      "signed_error_interval": [
+        "19001057/500000",
+        "7600423/200000"
+      ],
+      "signed_relative_percent_interval": [
+        "2255321/1000000",
+        "1127661/500000"
+      ],
+      "note": "SU-8 SEM; equal side angles."
+    },
+    {
+      "name": "Lowell 2016 / 6+1 axial",
+      "source": "Lowell 2016 §4.3 Fig. 4",
+      "kind": "axial",
+      "wavelength": "514.5",
+      "angle_deg": 46,
+      "travel": null,
+      "observed": "1741",
+      "unit": "nm",
+      "predicted_interval": [
+        "336999577/200000",
+        "842498943/500000"
+      ],
+      "signed_error_interval": [
+        "28001057/500000",
+        "11200423/200000"
+      ],
+      "signed_relative_percent_interval": [
+        "3323571/1000000",
+        "830893/250000"
+      ],
+      "note": "SU-8 SEM; equal side angles."
+    },
+    {
+      "name": "Lowell 2016 / 5+1 radial",
+      "source": "Lowell 2016 §4.2 Fig. 3",
+      "kind": "radial5",
+      "wavelength": "514.5",
+      "angle_deg": 46,
+      "travel": null,
+      "observed": "689",
+      "unit": "nm",
+      "predicted_interval": [
+        "76052347/125000",
+        "608418777/1000000"
+      ],
+      "signed_error_interval": [
+        "80581223/1000000",
+        "10072653/125000"
+      ],
+      "signed_relative_percent_interval": [
+        "827773/62500",
+        "13244369/1000000"
+      ],
+      "note": "DPHPA AFM; different material, separate observable."
+    }
+  ],
+  "fifth_mode": {
+    "positive_residues": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      13,
+      14,
+      15,
+      16
+    ],
+    "fibres": {
+      "0": 289,
+      "1": 289,
+      "2": 289,
+      "3": 289,
+      "4": 289,
+      "5": 289,
+      "6": 289,
+      "7": 289,
+      "8": 289,
+      "9": 289,
+      "10": 289,
+      "11": 289,
+      "12": 289,
+      "13": 289,
+      "14": 289,
+      "15": 289,
+      "16": 289
+    },
+    "active": 2601,
+    "atlas_size": 4913,
+    "target_cube": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        8
+      ],
+      [
+        8,
+        0,
+        8
+      ],
+      [
+        8,
+        8,
+        0
+      ]
+    ],
+    "outside_cube_active": 2597,
+    "fraction_active": "9/17"
+  },
+  "phase_budget": {
+    "absolute_pair_error_turns_strict_upper": "63/25600",
+    "in_Q17_steps": "1071/25600",
+    "optical_path_nm_at_405": "5103/5120",
+    "conditional_on": "four equal amplitude plane waves, phase errors only; sufficient, not necessary"
+  },
+  "published_metrology": {
+    "aligned_phase_turns": "61/1000",
+    "unaligned_phase_turns": "361/1000",
+    "aligned_in_Q17_steps": "1037/1000",
+    "unaligned_in_Q17_steps": "6137/1000",
+    "source": "Gao et al. 2025 Fig. 6; region-average phase difference; not HFP-17."
+  },
+  "fit_parameters": 0,
+  "raw_arrays_imported": false
+}

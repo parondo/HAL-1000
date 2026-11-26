@@ -1,0 +1,258 @@
+{
+  "scope": "source-table arithmetic and external bulk negative control; no raw material arrays",
+  "bulk_negative_control": {
+    "source": "https://doi.org/10.1038/s41598-023-43514-y",
+    "E1_ref_GPa": 370,
+    "E2_ref_GPa": 71,
+    "rows": [
+      {
+        "f_global": "0.36",
+        "observed_GPa": "89",
+        "predicted_interval_GPa": [
+          "114446022779/500000000",
+          "228892045857/1000000000"
+        ],
+        "signed_residual_interval_GPa": [
+          "-139892045857/1000000000",
+          "-69946022779/500000000"
+        ],
+        "signed_relative_percent_interval": [
+          "-13989204585700/228892045857",
+          "-6994602277900/114446022779"
+        ],
+        "scope": "bulk substitution; distinct local/mesoscale geometry"
+      },
+      {
+        "f_global": "0.48",
+        "observed_GPa": "129",
+        "predicted_interval_GPa": [
+          "12999677029/50000000",
+          "259993540879/1000000000"
+        ],
+        "signed_residual_interval_GPa": [
+          "-130993540879/1000000000",
+          "-6549677029/50000000"
+        ],
+        "signed_relative_percent_interval": [
+          "-13099354087900/259993540879",
+          "-654967702900/12999677029"
+        ],
+        "scope": "bulk substitution; distinct local/mesoscale geometry"
+      },
+      {
+        "f_global": "0.60",
+        "observed_GPa": "147",
+        "predicted_interval_GPa": [
+          "57655596457/200000000",
+          "36034747823/125000000"
+        ],
+        "signed_residual_interval_GPa": [
+          "-17659747823/125000000",
+          "-28255596457/200000000"
+        ],
+        "signed_relative_percent_interval": [
+          "-1765974782300/36034747823",
+          "-2825559645700/57655596457"
+        ],
+        "scope": "bulk substitution; distinct local/mesoscale geometry"
+      },
+      {
+        "f_global": "0.35",
+        "observed_GPa": "142",
+        "predicted_interval_GPa": [
+          "56534100589/250000000",
+          "45227280531/200000000"
+        ],
+        "signed_residual_interval_GPa": [
+          "-16827280531/200000000",
+          "-21034100589/250000000"
+        ],
+        "signed_relative_percent_interval": [
+          "-1682728053100/45227280531",
+          "-2103410058900/56534100589"
+        ],
+        "scope": "bulk substitution; distinct local/mesoscale geometry"
+      }
+    ]
+  },
+  "source": "https://www.fdaa.fr/2026/09/18/composition-morphologique/",
+  "glass_epoxy": {
+    "E1_GPa": "731/10",
+    "E2_GPa": "69/20",
+    "f": "1/2",
+    "predicted_interval_GPa": [
+      "972248749361/20000000000",
+      "486124375377/10000000000"
+    ],
+    "source_reported_range_GPa": [
+      "45",
+      "50"
+    ],
+    "source_rounded_prediction_GPa": "48.7"
+  },
+  "inverse_target_45_GPa": {
+    "r": "831/1393",
+    "f_interval": [
+      "218781127/500000000",
+      "87512451/200000000"
+    ]
+  },
+  "exact_witnesses": [
+    {
+      "t": "0",
+      "f": "0",
+      "r": "0"
+    },
+    {
+      "t": "1/16",
+      "f": "1/4294967296",
+      "r": "1/1048576"
+    },
+    {
+      "t": "1/8",
+      "f": "1/16777216",
+      "r": "1/32768"
+    },
+    {
+      "t": "3/16",
+      "f": "6561/4294967296",
+      "r": "243/1048576"
+    },
+    {
+      "t": "1/4",
+      "f": "1/65536",
+      "r": "1/1024"
+    },
+    {
+      "t": "5/16",
+      "f": "390625/4294967296",
+      "r": "3125/1048576"
+    },
+    {
+      "t": "3/8",
+      "f": "6561/16777216",
+      "r": "243/32768"
+    },
+    {
+      "t": "7/16",
+      "f": "5764801/4294967296",
+      "r": "16807/1048576"
+    },
+    {
+      "t": "1/2",
+      "f": "1/256",
+      "r": "1/32"
+    },
+    {
+      "t": "9/16",
+      "f": "43046721/4294967296",
+      "r": "59049/1048576"
+    },
+    {
+      "t": "5/8",
+      "f": "390625/16777216",
+      "r": "3125/32768"
+    },
+    {
+      "t": "11/16",
+      "f": "214358881/4294967296",
+      "r": "161051/1048576"
+    },
+    {
+      "t": "3/4",
+      "f": "6561/65536",
+      "r": "243/1024"
+    },
+    {
+      "t": "13/16",
+      "f": "815730721/4294967296",
+      "r": "371293/1048576"
+    },
+    {
+      "t": "7/8",
+      "f": "5764801/16777216",
+      "r": "16807/32768"
+    },
+    {
+      "t": "15/16",
+      "f": "2562890625/4294967296",
+      "r": "759375/1048576"
+    },
+    {
+      "t": "1",
+      "f": "1",
+      "r": "1"
+    }
+  ],
+  "poisson": [
+    {
+      "name": "i-Al-Pd-Mn",
+      "reported": "0.2489",
+      "reported_plusminus": "0.0015",
+      "source_prediction": "1/4",
+      "signed_defect": "-11/10000",
+      "relative_percent": "-11/25",
+      "in_reported_interval": true
+    },
+    {
+      "name": "i-Al-Cu-Fe",
+      "reported": "0.2478",
+      "reported_plusminus": "0.0020",
+      "source_prediction": "1/4",
+      "signed_defect": "-11/5000",
+      "relative_percent": "-22/25",
+      "in_reported_interval": false
+    },
+    {
+      "name": "Cr3Si",
+      "reported": "0.2842",
+      "reported_plusminus": "0.0030",
+      "source_prediction": "13/46",
+      "signed_defect": "183/115000",
+      "relative_percent": "183/325",
+      "in_reported_interval": true
+    },
+    {
+      "name": "Fe alpha",
+      "reported": "0.2835",
+      "reported_plusminus": "0.0025",
+      "source_prediction": "13/46",
+      "signed_defect": "41/46000",
+      "relative_percent": "41/130",
+      "in_reported_interval": true
+    },
+    {
+      "name": "W",
+      "reported": "0.2800",
+      "reported_plusminus": "0.0020",
+      "source_prediction": "13/46",
+      "signed_defect": "-3/1150",
+      "relative_percent": "-12/13",
+      "in_reported_interval": false
+    },
+    {
+      "name": "Vitreloy 4",
+      "reported": "0.3510",
+      "reported_plusminus": "0.0040",
+      "source_prediction": "1753/5000",
+      "signed_defect": "1/2500",
+      "relative_percent": "200/1753",
+      "in_reported_interval": true
+    },
+    {
+      "name": "Pd40Ni40P20",
+      "reported": "0.3980",
+      "reported_plusminus": "0.0050",
+      "source_prediction": "1981/5000",
+      "signed_defect": "9/5000",
+      "relative_percent": "900/1981",
+      "in_reported_interval": true
+    }
+  ],
+  "notes": [
+    "Glass/epoxy range and Poisson observations are reported in the corpus; primary specimen data not recovered.",
+    "Metallic-glass predictions use a calibrated beta_v; not an independent parameter-free test.",
+    "Distinct Lame regimes lambda=mu and lambda/mu=13/10 must remain typed.",
+    "A field command to independently measured f, delta, chi_c is required; optical dose is not f."
+  ]
+}

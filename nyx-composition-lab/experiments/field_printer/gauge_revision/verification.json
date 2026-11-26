@@ -1,0 +1,62 @@
+{
+  "scope": "source arithmetic and finite typed witness only",
+  "checks": {
+    "corrected_resonance_square": "PASS",
+    "retired_mean_not_same": "PASS",
+    "distinct_poisson_regimes": "PASS",
+    "local_composition_power_bracket": "PASS",
+    "composition_witness_00": "PASS",
+    "composition_witness_01": "PASS",
+    "composition_witness_02": "PASS",
+    "composition_witness_03": "PASS",
+    "composition_witness_04": "PASS",
+    "composition_witness_05": "PASS",
+    "composition_witness_06": "PASS",
+    "composition_witness_07": "PASS",
+    "composition_witness_08": "PASS",
+    "composition_witness_09": "PASS",
+    "composition_witness_10": "PASS",
+    "composition_witness_11": "PASS",
+    "composition_witness_12": "PASS",
+    "composition_witness_13": "PASS",
+    "composition_witness_14": "PASS",
+    "composition_witness_15": "PASS",
+    "composition_witness_16": "PASS",
+    "poisson_source_row_1": "PASS",
+    "poisson_source_row_2": "PASS",
+    "poisson_source_row_3": "PASS",
+    "poisson_source_row_4": "PASS",
+    "poisson_source_row_5": "PASS",
+    "poisson_source_row_6": "PASS",
+    "poisson_source_row_7": "PASS",
+    "fifth_mode_support": "PASS",
+    "fifth_mode_excess": "PASS",
+    "no_raw_arrays_claim": "PASS",
+    "finite_union_budget": "PASS",
+    "finite_overlap": "PASS",
+    "finite_defects_distinct": "PASS"
+  },
+  "passed": 34,
+  "stops": {
+    "global_bulk_fraction_to_local_f": "STOP: transport not established",
+    "optical_address_count_to_capacity": "STOP: no calibrated capacity on J17^3",
+    "optical_dose_to_material_state": "STOP: process transfer not calibrated",
+    "instrument_distance_to_gauge_distance": "STOP: typed recapture missing",
+    "full_morcillien": "STOP: calibrated centers, distance and capacity required",
+    "hardware_execution": "STOP: outside scope of this audit"
+  },
+  "corrected_resonance_square": "65/128",
+  "finite_J17_witness": {
+    "capacity_union": "64/289",
+    "overlap": "33/64",
+    "normalized_defect": "31/64",
+    "symmetric_difference_capacity": "33/289"
+  },
+  "archive_sha256": {
+    "empirical_check.py": "5ec90c710973eef0b8a8a3e926acd3e0bb86899dfcb8d94e66ac83693f5d0cd4",
+    "material_contract.py": "ca8147b3a564b979011bcb45fd61ca16905914040f77199ff35a569bf68f3431",
+    "material_results.json": "cbac0d694a556a477b02670d8c8f12ababf0ae84be91d5c4b801da32ad66e12c",
+    "results.json": "11d1d3636cd04eed0d0193fdbfa4884b3b5a677c5aee72ace722caa46cd0c7ad",
+    "test_empirical.py": "fb81500ebb80b9789787dfd4b210e212611ec04d4dc8aa7c6672e4976105cab5"
+  }
+}

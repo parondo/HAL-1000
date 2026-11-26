@@ -1,3 +1,9 @@
+# Current research entry point — HFP-17
+
+**[Native gauge revision / research folio III](gauge_revision/README.md)** — current metric correction, empirical archives, typed contract and next simulation. Earlier P0/P1a and field-mode results remain historical, with their original scope. No automatic transfer of external metrics into Nyx.
+
+---
+
 # HFP-17 — Physical field printer research
 
 **Project goal: physical fabrication by programmable fields.** The original P0 algebraic experiment is preserved below. [P1a optical physical adapter and validation protocol](physical_bridge/README.md) now provides an explicit calibrated phase-to-position map, vector interference, and signed phase recapture. Actual HFP-17 lab fabrication remains to be tested. [External audit follow-up](physical_bridge/AUDIT.md).

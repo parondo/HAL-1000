@@ -1,0 +1,78 @@
+{
+  "version": "0.3-research",
+  "status": "proposal_pending_external_audit",
+  "goal": "physical fabrication by composition of fields",
+  "baseline": "Nyx V2.1; selective finite transport from Scala Caelestis V4 only where audited",
+  "active_reference_operators": {
+    "composition": "typed admissible morphological composition, not arbitrary superposition",
+    "distance": "D_G^13=d^16 for nonnegative calibrated d; preserve rational bounds",
+    "overlap": "mu(A intersect B)/mu(A union B), only when union admissible and denominator positive",
+    "defect": "1-overlap; separately mu(A symmetric_difference B)",
+    "coherence": "cos(theta_uv)*overlap, theta from calibrated centers in S3, not Euclidean coordinate angle",
+    "clock": "intrinsic capacity measure, not wall-clock sampling"
+  },
+  "types": {
+    "O_observation": [
+      "source_uri",
+      "source_version",
+      "specimen_id",
+      "units",
+      "instrument",
+      "observable",
+      "reported_value",
+      "uncertainty_as_reported",
+      "raw_or_reported",
+      "sha256_if_raw"
+    ],
+    "native_material_state": [
+      "typed_envelope",
+      "D_activation",
+      "delta_frustration",
+      "f_local",
+      "chi_c",
+      "contacts",
+      "capacity_model",
+      "center",
+      "radius",
+      "intrinsic_clock"
+    ],
+    "transport_certificate": [
+      "source_type",
+      "target_type",
+      "admissible_domain",
+      "map",
+      "fibre",
+      "transport_defect",
+      "calibration_evidence",
+      "version"
+    ],
+    "field_command": [
+      "common_field_modes",
+      "phase_amplitude_calibration",
+      "target_envelope",
+      "preserve_envelope",
+      "process_transfer",
+      "recapture"
+    ]
+  },
+  "retired_or_quarantined": [
+    "global fraction substituted for local f",
+    "scalar residuals as Morcillien",
+    "address counts as physical capacity",
+    "historical arithmetic mean 23/32 for frustration resonance",
+    "Gaussian and imported statistical estimators as active Nyx tools",
+    "external trigonometric optical adapter except as O boundary diagnostic",
+    "automatic NTT, CoreXY, G-code, voxel slicer as native architecture"
+  ],
+  "material_relations": {
+    "binary_composite": "f^5=r_E^8, conditional on local typed regime",
+    "resonance": "(delta_star/delta_ico)^2=65/128, corrected source addendum",
+    "poisson": "1/4 if lambda/mu=1; 13/46 if lambda/mu=13/10; regimes not interchangeable"
+  },
+  "physical_transfer": {
+    "status": "STOP",
+    "reason": "existing published material laws and reported data are reference; HFP17-specific command/material calibration and recapture not yet acquired"
+  },
+  "hardware_execution": false,
+  "raw_arrays_imported": false
+}
