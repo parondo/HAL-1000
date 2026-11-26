@@ -1,0 +1,92 @@
+{
+  "scope": "source-table arithmetic, no raw specimen arrays, no fitting",
+  "glass_rows": [
+    {
+      "material": "Vitreloy 4",
+      "prediction_in_reported_interval": true,
+      "reported_prediction": "1753/5000",
+      "signed_defect": "1/2500",
+      "phi_required_interval_given_exact_beta_5_4": [
+        "7819/143750",
+        "503/6250"
+      ],
+      "approximate_phi_as_exact_compatible": true
+    },
+    {
+      "material": "Pd40Ni40P20",
+      "prediction_in_reported_interval": true,
+      "reported_prediction": "1981/5000",
+      "signed_defect": "9/5000",
+      "phi_required_interval_given_exact_beta_5_4": [
+        "13063/143750",
+        "731/6250"
+      ],
+      "approximate_phi_as_exact_compatible": false
+    }
+  ],
+  "other_interval_excess": [
+    {
+      "material": "i-Al-Cu-Fe",
+      "prediction_minus_interval_upper": "1/5000"
+    },
+    {
+      "material": "W",
+      "prediction_minus_interval_upper": "7/11500"
+    }
+  ],
+  "free_volume_reduced_as_quenched_Pd": "117/10000",
+  "nominal_gauge_to_reduced_value_ratio": "400/39",
+  "alumina_aluminum": [
+    {
+      "nominal_infill": "0.52",
+      "local_nominal_ceramic": "3/5",
+      "apparent_fraction_product": "39/125",
+      "reported_apparent_fraction": "0.31",
+      "reported_flexural_GPa": null
+    },
+    {
+      "nominal_infill": "0.60",
+      "local_nominal_ceramic": "3/5",
+      "apparent_fraction_product": "9/25",
+      "reported_apparent_fraction": "0.36",
+      "reported_flexural_GPa": 89
+    },
+    {
+      "nominal_infill": "0.80",
+      "local_nominal_ceramic": "3/5",
+      "apparent_fraction_product": "12/25",
+      "reported_apparent_fraction": "0.48",
+      "reported_flexural_GPa": 129
+    },
+    {
+      "nominal_infill": "1",
+      "local_nominal_ceramic": "3/5",
+      "apparent_fraction_product": "3/5",
+      "reported_apparent_fraction": "0.60",
+      "reported_flexural_GPa": 147
+    }
+  ],
+  "equal_infill_fracture_work_ratio": "8/5 (reported approximate)",
+  "dual_color": {
+    "UV_nm": 365,
+    "blue_nm": 455,
+    "before_postprocessing_kPa": {
+      "UV": 542,
+      "blue": 159
+    },
+    "after_postprocessing_MPa": {
+      "UV": 201,
+      "blue": 127
+    },
+    "before_UV_blue_ratio": "542/159",
+    "after_UV_blue_ratio": "201/127",
+    "UV_post_pre_ratio": "100500/271",
+    "blue_post_pre_ratio": "127000/159"
+  },
+  "stops": [
+    "volume free normalization not established",
+    "effective nominal fraction is not local activation profile",
+    "two interpenetrating polymer networks are not proven complementary fractions",
+    "raw workbook download failed; Seleznev data available on request"
+  ]
+}

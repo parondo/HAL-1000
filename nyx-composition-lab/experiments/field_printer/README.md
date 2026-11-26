@@ -1,3 +1,9 @@
+# Native composition — current continuation
+
+**[Native material composition and inverse envelope](native_composition/README.md)** · finite max–min composition, corrected residual, data-first audit. Earlier research follows unchanged.
+
+---
+
 # Current research entry point — HFP-17
 
 **[Native gauge revision / research folio III](gauge_revision/README.md)** — current metric correction, empirical archives, typed contract and next simulation. Earlier P0/P1a and field-mode results remain historical, with their original scope. No automatic transfer of external metrics into Nyx.
