@@ -1,0 +1,42 @@
+{
+  "version": "0.1",
+  "status": "external_audit_pending",
+  "scope": "synthetic finite algebra",
+  "domain": {
+    "addresses": "J17 x J17",
+    "phase": "Z/17Z additive exponents",
+    "field": "Q[z]/Phi17",
+    "amplitude": "unit"
+  },
+  "operators": {
+    "compose": "formal field addition",
+    "quadratic_trace": "F*sigma_16(F)",
+    "gate": "I == 9; model equality predicate, not density threshold"
+  },
+  "invariants": [
+    "common phase",
+    "conjugation of quadratic trace",
+    "Galois maximum predicate",
+    "joint address translation"
+  ],
+  "not_invariants": [
+    "arbitrary intensity under Galois",
+    "physical contact geometry"
+  ],
+  "missing": [
+    "physical phase calibration",
+    "material response",
+    "typed O/H_perp bridge",
+    "admissible capacity and full Morcillien",
+    "FieldScript parser"
+  ],
+  "hardware_execution": false,
+  "external_data_imported": false,
+  "undefined": "STOP",
+  "source": "Scala Caelestis V4; De Praxi et Inferentia; De Referentiis Modularibus",
+  "seal": {
+    "QED": "conditional on stated model; independent external audit pending",
+    "QEG": "open",
+    "QEC": "open"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "synthetic finite algebra only",
+  "target": [
+    4,
+    13
+  ],
+  "atlas_addresses": 289,
+  "two_beam_x": 17,
+  "two_beam_y": 17,
+  "three_beam": [
+    [
+      4,
+      13
+    ]
+  ],
+  "checks": {
+    "global_phase": 4913,
+    "conjugation": 289,
+    "galois_max": 4624,
+    "translation": 289
+  },
+  "total_invariance_checks": 10115,
+  "conjugate_witness": {
+    "phases_a": [
+      0,
+      1,
+      4
+    ],
+    "phases_b": [
+      0,
+      16,
+      13
+    ],
+    "trace": [
+      2,
+      0,
+      -1,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      -1
+    ]
+  }
+}
