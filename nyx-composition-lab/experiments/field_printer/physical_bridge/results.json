@@ -1,0 +1,64 @@
+{
+  "python": "3.13.5",
+  "status": "conditional optical adapter; HFP17 not physically tested",
+  "source": "https://doi.org/10.1038/s41467-026-73975-4",
+  "published_observations": {
+    "lateral_shift_um": 80,
+    "propagation_air_um": 450,
+    "structure_depth_um": 720,
+    "wall_width_um": 6,
+    "capillary_depth_um": [
+      [
+        1,
+        169
+      ],
+      [
+        10,
+        233
+      ],
+      [
+        20,
+        243
+      ]
+    ],
+    "effective_modulus_GPa": "5.7"
+  },
+  "imported_ratios": {
+    "tilt_shift_over_travel": {
+      "exact": "8/45",
+      "mod17": 10
+    },
+    "wall_over_depth": {
+      "exact": "1/120",
+      "mod17": 1
+    },
+    "capillary_end_over_depth": {
+      "exact": "27/80",
+      "mod17": 15
+    }
+  },
+  "optical_path_step_nm": "405/17",
+  "material_path_step_nm": "405000/27421",
+  "address_checks": 4913,
+  "recaptured_phase_states": 17,
+  "positive_shifted_coefficients": [
+    "11409721/16777216",
+    "9346387/131072",
+    "24425165/65536",
+    "736315/1024",
+    "1403895/2048",
+    "11463/32",
+    "1673/16",
+    "16",
+    "1"
+  ],
+  "target_intensity": "16",
+  "off_target_upper_bound": "125/8",
+  "synthetic_gate": "253/16",
+  "strict_uniform_error_bound": "3/16",
+  "vector_maximum": "1604/101",
+  "vector_off_target_upper_bound": "12535/808",
+  "vector_gate": "25367/1616",
+  "vector_error_bound": "297/1616",
+  "raw_arrays_imported": false
+}

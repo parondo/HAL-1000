@@ -1,3 +1,9 @@
+# HFP-17 — Physical field printer research
+
+**Project goal: physical fabrication by programmable fields.** The original P0 algebraic experiment is preserved below. [P1a optical physical adapter and validation protocol](physical_bridge/README.md) now provides an explicit calibrated phase-to-position map, vector interference, and signed phase recapture. Actual HFP-17 lab fabrication remains to be tested. [External audit follow-up](physical_bridge/AUDIT.md).
+
+---
+
 # HFP-17 — Field composition research prototype
 
 **Status: P0 exact synthetic experiment; external audit requested.**
@@ -30,3 +36,6 @@ The first command regenerates the checked-in JSON. The original experiment was r
 5. [AI contract](contract.json) and [lab-wide agent rules](../../AGENTS.md)
 
 Do not conflate rational residues, cyclotomic phases, Galois actions, or physical angles. No full Morcillien or physical bridge is claimed. No external dataset is vendored or executed.
+
+
+Audit history clarification: the alternative unordered-pair histogram is a local cross-check, not a prior rejected external audit. The DeepSeek P0 review supplied on 26 November 2026 did not inspect the Python source. See the P1a follow-up for the next audit.
