@@ -38,3 +38,8 @@ Historical architecture: https://github.com/parondo/HAL-1000
 The first two WordPress notebooks are De Formis et Contactibus and De Referentiis Modularibus. Exact public section URLs are not yet pinned. This bootstrap implements only the reference-import experiment; the earlier form/contact experiment is not yet ported.
 
 This directory lives on a separate research branch. No merge into main is authorized by this bootstrap. Do not treat proposed operators as new axioms or as a validated physical implementation.
+
+
+## Discipline de conversion des données (26 novembre 2026)
+
+[De Ratione et Conversione Datorum](experiments/field_printer/multifunctional_panel/DATA_CONVERSION_POLICY.md) — conserver les observations originales, recalculer dans Nyx, exclure de l'outillage actif les opérations rejetées. Les comparaisons historiques non admissibles ne sont pas des échecs prédictifs de Nyx.

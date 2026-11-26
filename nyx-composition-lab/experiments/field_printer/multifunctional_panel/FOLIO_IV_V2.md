@@ -23,3 +23,8 @@ diff -u Incarnatio_04_V2_rapport.json /tmp/folio_iv_replay.json
 Rejoué dans le bac à sable le 26 novembre 2026 : 1553/1553 contrôles PASS, rapport identique octet pour octet. V1 : 1549/1549, également rejoué à l'identique. Ces contrôles portent sur l'algèbre finie et l'arithmétique des valeurs publiées, pas sur la fabrication. Aucun nouveau paramètre ajusté. Pas de modification des théorèmes. Les tests précédents de PANEL-01, composition native, mode optique et autres modules restent dans leurs dossiers, avec leurs procédures et leurs rapports. Ce rejeu ne constitue pas un nouveau test de tous les scripts du dépôt.
 
 STOP : données brutes par spécimen, état thermique et mécanique, transport de la pression et des propriétés électriques, définition de Φlibre, réalisation physique. QED : témoins finis; QEG : contacts déclarés; QEC physique ouvert.
+
+
+## Addendum de méthode — 26 novembre 2026
+
+[De Ratione et Conversione Datorum](DATA_CONVERSION_POLICY.md) précise la requalification des comparaisons historiques et le retour aux observations originales. Il complète le feuillet illustré sans modifier ses chaînes ni ses résultats archivés.
